@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #301d6930;
+}
+
+header, section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
