@@ -1,13 +1,23 @@
 header{
   height: 75px;
+  background-color: teal;
 }
 
 #b{
   height: 150px;
+  background-color: white;
 }
 
 #c, #d{
   height: 125px;
+}
+
+#c{
+  background-color: gold;
+}
+
+#d{
+  background-color: red;
 }
 
 #e-h{
@@ -15,6 +25,22 @@ header{
   float: left;
   flex-wrap: wrap;
   margin: auto;
+}
+
+#e{
+  background-color: green;
+}
+
+#f{
+  background-color: blue;
+}
+
+#g{
+  background-color: orange;
+}
+
+#h{
+  background-color: purple;
 }
 
 .grid-box{
@@ -28,13 +54,14 @@ header{
 
 #i{
   height: 80px;
+  background-color: gray;
 }
 
 @media(min-width: 768px){
-  body{
-    background-color: wheat;
+  header{
+    background-color: red;
   }
-
+  
   main{
     float: left;
     width: 100%;
@@ -45,6 +72,7 @@ header{
     height: 600px;
     margin: 0;
     float: left;
+    background-color: gold;
   }
 
   #c, #d{
@@ -53,10 +81,34 @@ header{
     float: left;
   }
   
+  #c{
+    background-color: white;
+  }
+  
+  #d{
+    background-color: teal;
+  }
+  
   #e-h{
     width: 78%;
     height: 250px;
     float: left;
+  }
+
+  #e{
+    background-color: blue;
+  }
+  
+  #f{
+    background-color: green;
+  }
+  
+  #g{
+    background-color: purple;
+  }
+  
+  #h{
+    background-color: orange;
   }
 
   .grid-box{
@@ -68,5 +120,6 @@ header{
     width: 78%;
     height: 150px;
     float: left;
+    background-color: brown;
   }
 }
